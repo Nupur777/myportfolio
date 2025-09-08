@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — Front-end developer | HTML, CSS, JS" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">Your Name</a>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">☰</button>
+      <nav id="main-nav" class="nav">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <div class="hero-text">
+        <h1>Your Name</h1>
+        <p>Aspiring front-end / full-stack developer. I build clean, responsive web experiences with HTML, CSS and JavaScript.</p>
+        <p><a class="cta" href="#projects">See projects</a></p>
+      </div>
+      <div class="hero-photo">
+        <img src="images/profile.jpg" alt="Photo of Your Name">
+      </div>
+    </section>
+
+    <section id="skills" class="container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS (Flexbox/Grid)</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Responsive Design</span>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Project Gallery</h2>
+      <div class="grid">
+        <!-- Project card example -->
+        <article class="card">
+          <h3>To-Do App</h3>
+          <p>React + Node, create/edit/delete tasks. Deployed on Render.</p>
+          <p><a href="#" target="_blank" rel="noopener">Live demo</a> · <a href="#" target="_blank" rel="noopener">Code</a></p>
+        </article>
+
+        <!-- Add more cards -->
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">yourprofile</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Your Name — Built with HTML, CSS, JS</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
