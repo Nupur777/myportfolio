@@ -1,6 +1,6 @@
 # Nupur Portfolio
 
-Live: https://YOUR_USERNAME.github.io/REPO_NAME
+Live:  https://nupur777.github.io/myportfolio
 
 ## About
 Aspiring front-end / full-stack developer. I build clean, responsive web experiences with HTML, CSS and JavaScript.
