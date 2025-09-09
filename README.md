@@ -1,9 +1,9 @@
-# Your Name — Portfolio
+# Nupur Portfolio
 
 Live: https://YOUR_USERNAME.github.io/REPO_NAME
 
 ## About
-Short 1–2 sentence introduction.
+Aspiring front-end / full-stack developer. I build clean, responsive web experiences with HTML, CSS and JavaScript.
 
 ## Tech
 HTML • CSS • JavaScript
@@ -18,5 +18,5 @@ HTML • CSS • JavaScript
 3. Open http://localhost:8000
 
 ## Contact
-Email: you@example.com
-LinkedIn: https://linkedin.com/in/yourprofile
+Email: tyaginupur777@gmail.com
+LinkedIn: www.linkedin.com/in/nupurtyagi0077
