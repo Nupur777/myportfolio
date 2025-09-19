@@ -1,13 +1,26 @@
-// Mobile nav toggle
-const navToggle = document.querySelector('.nav-toggle');
-const nav = document.getElementById('main-nav');
-if(navToggle){
-  navToggle.addEventListener('click', () => {
-    const expanded = navToggle.getAttribute('aria-expanded') === 'true';
-    navToggle.setAttribute('aria-expanded', String(!expanded));
-    nav.classList.toggle('open');
-  });
-}
+// Hero CTA animation
+// Hero CTA animation
+document.addEventListener("DOMContentLoaded", () => {
+  const cta = document.querySelector(".hero .btn");
+  if (cta) {
+    cta.style.opacity = 0;
+    cta.style.transform = "translateY(10px)";
+    cta.style.transition = "opacity 0.8s ease, transform 0.8s ease";
+    setTimeout(() => {
+      cta.style.opacity = 1;
+      cta.style.transform = "translateY(0)";
+    }, 300);
+  }
+});
+console.log("Hello");
 
-// Set year
-document.getElementById('year').textContent = new Date().getFullYear();
+// Mobile nav toggle
+document.addEventListener("DOMContentLoaded", () => {
+  const navToggle = document.querySelector(".nav-toggle");
+  const nav = document.querySelector(".nav");
+  if (navToggle && nav) {
+    navToggle.addEventListener("click", () => {
+      nav.classList.toggle("open");
+    });
+  }
+});
